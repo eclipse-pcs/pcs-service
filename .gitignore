@@ -1,0 +1,11 @@
+_local/
+bin/
+.cursor/
+test/_data/
+test/_bin/
+test/_logs/
+test/compare_env.local.sh
+test/*.log
+test/pcs-service.pid
+.DS_Store
+**/.DS_Store
