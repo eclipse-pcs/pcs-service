@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 func TestWriteErrorLineAndReadTrailer(t *testing.T) {

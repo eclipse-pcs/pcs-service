@@ -6,7 +6,7 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 func particleReaders(sess *protocol.SessionPortSet) map[pcs.ParticleKind]io.ReadCloser {

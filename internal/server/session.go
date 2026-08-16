@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 type sessionStats struct {

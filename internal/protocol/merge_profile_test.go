@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 func TestReadClientHandshake(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"github.com/eclipse-pcs/pcs"
 	"github.com/eclipse-pcs/pcs/stream"
 
-	"pcs-service/internal/mergeplan"
-	"pcs-service/internal/particleio"
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/mergeplan"
+	"github.com/eclipse-pcs/pcs-service/internal/particleio"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 // mergeStreamOpen wraps an incoming particle TCP stream for streaming merge decode.

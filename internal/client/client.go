@@ -7,7 +7,7 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 const CopyBufferSize = 32 << 10

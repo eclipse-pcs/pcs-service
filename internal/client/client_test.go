@@ -6,7 +6,7 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/client"
+	"github.com/eclipse-pcs/pcs-service/internal/client"
 )
 
 func TestSplitCSVMergeKinds(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"pcs-service/internal/client"
-	"pcs-service/internal/store"
+	"github.com/eclipse-pcs/pcs-service/internal/client"
+	"github.com/eclipse-pcs/pcs-service/internal/store"
 )
 
 func TestCrossDemoRoundTrip(t *testing.T) {

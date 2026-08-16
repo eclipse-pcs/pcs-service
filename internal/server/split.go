@@ -7,8 +7,8 @@ import (
 
 	"github.com/eclipse-pcs/pcs/stream"
 
-	"pcs-service/internal/config"
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/config"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 func handleSplit(comConn io.ReadWriter, ports *protocol.SessionPortSet, cfg *config.Config) (sessionStats, error) {

@@ -8,7 +8,7 @@ import (
 	"github.com/eclipse-pcs/pcs"
 	"github.com/eclipse-pcs/pcs/stream"
 
-	"pcs-service/internal/particleio"
+	"github.com/eclipse-pcs/pcs-service/internal/particleio"
 )
 
 func TestTrailingFooterWithStreamDecoder(t *testing.T) {

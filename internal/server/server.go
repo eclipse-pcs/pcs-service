@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"pcs-service/internal/config"
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/config"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 // Server is the pcs-service TCP server.

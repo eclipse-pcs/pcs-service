@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 // TestSessionStatsRecoveryUsed checks recoveryUsed reflects non-empty recoveries in session stats.

@@ -9,7 +9,7 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/store"
+	"github.com/eclipse-pcs/pcs-service/internal/store"
 )
 
 // Missing-core mask bits for merge profile (control channel line 2).

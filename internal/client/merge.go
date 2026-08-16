@@ -8,9 +8,9 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/mergeplan"
-	"pcs-service/internal/protocol"
-	"pcs-service/internal/store"
+	"github.com/eclipse-pcs/pcs-service/internal/mergeplan"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/store"
 )
 
 var coreParticleKinds = pcs.CoreParticleKinds

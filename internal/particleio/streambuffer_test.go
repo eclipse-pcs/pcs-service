@@ -9,7 +9,7 @@ import (
 	"github.com/eclipse-pcs/pcs/footer"
 	"github.com/eclipse-pcs/pcs/stream"
 
-	"pcs-service/internal/particleio"
+	"github.com/eclipse-pcs/pcs-service/internal/particleio"
 )
 
 type streamBuffer struct {

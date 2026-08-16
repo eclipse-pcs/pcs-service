@@ -1,4 +1,4 @@
-module pcs-service
+module github.com/eclipse-pcs/pcs-service
 
 go 1.26.3
 

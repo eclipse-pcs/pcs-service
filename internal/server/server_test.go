@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"pcs-service/internal/client"
-	"pcs-service/internal/config"
-	"pcs-service/internal/protocol"
-	"pcs-service/internal/server"
+	"github.com/eclipse-pcs/pcs-service/internal/client"
+	"github.com/eclipse-pcs/pcs-service/internal/config"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/server"
 )
 
 func startServer(t *testing.T, cfg *config.Config) (*server.Server, string) {

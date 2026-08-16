@@ -9,8 +9,8 @@ import (
 	"github.com/eclipse-pcs/pcs/footer"
 	"github.com/eclipse-pcs/pcs/stream"
 
-	"pcs-service/internal/particleio"
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/particleio"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 func TestBuildMergeSourcesUsesStreamingReaders(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"pcs-service/internal/config"
-	"pcs-service/internal/server"
+	"github.com/eclipse-pcs/pcs-service/internal/config"
+	"github.com/eclipse-pcs/pcs-service/internal/server"
 )
 
 func main() {

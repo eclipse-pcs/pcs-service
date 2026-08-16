@@ -7,7 +7,7 @@ import (
 	"github.com/eclipse-pcs/pcs"
 	"github.com/eclipse-pcs/pcs/stream"
 
-	"pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
 )
 
 func TestBuildTrailerFromEncodeMeta(t *testing.T) {

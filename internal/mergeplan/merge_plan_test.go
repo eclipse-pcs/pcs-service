@@ -5,7 +5,7 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/mergeplan"
+	"github.com/eclipse-pcs/pcs-service/internal/mergeplan"
 )
 
 func fullInventory() *pcs.ParticleInventory {

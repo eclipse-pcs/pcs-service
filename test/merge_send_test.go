@@ -8,9 +8,9 @@ import (
 
 	"github.com/eclipse-pcs/pcs"
 
-	"pcs-service/internal/client"
-	"pcs-service/internal/protocol"
-	"pcs-service/internal/store"
+	"github.com/eclipse-pcs/pcs-service/internal/client"
+	"github.com/eclipse-pcs/pcs-service/internal/protocol"
+	"github.com/eclipse-pcs/pcs-service/internal/store"
 )
 
 func writeSplitParticlesToDir(t *testing.T, dir, base string, secret []byte) {
